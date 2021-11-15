@@ -45,9 +45,7 @@ public class Main {
     }
 
     public static boolean checkIsNegative(int number) {
-        if (number < 0) {
-            return true;
-        } else return false;
+        return (number < 0);
     }
 
     public static void printName(String name) {
