@@ -14,7 +14,7 @@ public class Main {
 
 
         System.out.println(calculate(1, 2, 6, 3));
-        System.out.println(checkSum(5, 6));
+        System.out.println(checkSum(3, 6));
         checkInt(1);
         System.out.println(checkIsNegative(-1));
         printName("Andrey");
@@ -32,10 +32,7 @@ public class Main {
 
     public static boolean checkSum(double first, double second) {
 
-        if (first + second >= 10 && first + second <= 20) {
-            return true;
-        }
-        return false;
+        return (first + second >= 10 && first + second <= 20);
     }
 
     public static void checkInt(int number) {
